@@ -12,6 +12,11 @@ This is a custom startpage that includes:
 - Fetches and displays WAN IP.
 - Displays current time.
 
+## Images
+![start](https://github.com/user-attachments/assets/58a360b7-a2b4-4b27-bfa3-b0d5c7337605)
+![menu](https://github.com/user-attachments/assets/72827879-ed1c-4fcc-9aa0-32cf56e1c464)
+![wan](https://github.com/user-attachments/assets/e44b5195-be7f-4608-9268-83e5c036bccc)
+
 ## Other
 
 - Left click on the searchbar to 'pin' it.
