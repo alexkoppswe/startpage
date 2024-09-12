@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StartPage</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="emoji">✨</div>
+  <div class="emoji">🪐</div>
+  <div class="emoji">🌖</div>
+  <div class="emoji">🌑</div>
+  <div class="emoji">⭑</div>
+  <div class="emoji">⋆</div>
+  <div class="emoji">｡</div>
+  <div class="emoji">🌏</div>
+  <div class="emoji">🌌</div>
+
+  <div id="container">
+    <header>
+      <div id="sidebar-menu" class="sidebar-collapsed">
+        <div id="sidebar-btn" onclick="toggleSidebar()" aria-expanded="false" title="Search menu">⮜</div>
+        <div class="icon-container"></div>
+      </div>
+    </header>
+
+    <main>  
+      <div class="element local-network">
+        <div class="subcat">
+          <h2>Local Network</h2>
+          <p>Local Area Network</p>
+        </div>
+        <div class="subcat">
+          <h3>Docker Local Development</h3>
+          <ul>
+            <li><a target="_blank" href="http://localhost:8080">Localhost</a></li>
+            <li><a target="_blank" href="https://localhost:8443">Localhost (https)</a></li>
+            <li><a target="_blank" href="http://localhost:8081">PhpMyAdmin</a></li>
+            <li><a target="_blank" href="http://localhost:8081">PhpMyAdmin (https)</a></li>
+          </ul>
+        </div>
+      </div>
+  
+      <!-- Sphere Element Representing the Universe -->
+       <div class="center-content">
+        <div id="clock"></div>
+        <div class="sphere-orbit">
+          <div class="sphere-orbit-center" title="Click to copy">🌐</div>
+          <div id="wan-info">
+            <p><strong>WAN IP: </strong><span>Loading..</span></p>
+          </div>
+          <div class="sphere"></div>
+        </div>
+       </div>
+
+      <div class="element www">
+        <div class="subcat">
+          <h2>World Wide Web</h2>
+          <p>The net is vast & infinite</p>
+        </div>
+        <div class="subcat">
+          <a target="_blank" href="https://web.dev">Web.dev</a>
+          <a target="_blank" href="https://nextdns.io/">NextDNS</a>
+          <a target="_blank" href="https://archive.org">Internet Archive</a>
+          <a target="_blank" href="https://huggingface.co">Huggingface</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div id="quote"></div>
+      <img src="icons/Copyleft.svg" alt="Copyleft" title="Copyleft">
+    </footer>
+  </div>
+</body>
+</html>
